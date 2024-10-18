@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmakia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>Farmakia</h1>
+        <div class="categories">
+            <a href="#categoria1">Belleza</a>
+            <a href="#categoria2">Salud</a>
+            <a href="#categoria3">Bebes</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button type="button">Buscar</button>
+        </div>
+        <div class="icons">
+            <a href="#carrito">🛒 Carrito</a>
+            <a href="#login" id="loginBtn">🔑 Iniciar Sesión</a>
+        </div>
+    </nav>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Crear Cuenta</h2>
+            <form>
+                <label for="username">Nombre de Usuario:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Contraseña:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Maquillaje.png" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Farmakia.com.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Pelao.png" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+  
+  
+  
+  
+  
+  
+  
+    <div class="container my-4">
+        <h1 class="text-center">Lista de Productos</h1>
+        <!-- Contenedor donde se mostrarán las tarjetas de productos -->
+        <div id="productos-container" class="row"></div>
+    </div>
+
+    <script src="BD.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer HTML -->
+<footer class="footer">
+    <div class="footer-content">
+        <h2>Contáctanos</h2>
+        <p>Teléfono 1: +57 300 123 4567</p>
+        <p>Teléfono 2: +57 300 765 4321</p>
+        <div class="social-icons">
+            <a href="https://wa.me/573001234567" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"/>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"/>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/tiktok.png" alt="TikTok"/>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook"/>
+            </a>
+        </div>
+        <p>&copy; 2024 Farmacia Virtual. Todos los derechos reservados.</p>
+    </div>
+        </div>
+    </div>
+</footer>
+
+</body>
